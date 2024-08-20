@@ -9,7 +9,7 @@ object primenumber{
         
 }
     def filerprime(numbers:List[Int]):List[Int]={
-        numbers.filter(n=>isprime(n))
+        numbers.filter(n=> isprime(n))
     }
 
     def main(args: Array[String]): Unit = {
